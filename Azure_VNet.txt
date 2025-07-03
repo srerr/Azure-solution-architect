@@ -1,0 +1,47 @@
+-> Vnet=region level
+-> NSG= subnet level
+
+## Azure VNet:
+--------------
+--> VNet is a virtual network that allows you to create isolated networks in Azure.
+--> VNet can span multiple regions and can be connected to on-premises networks.
+## Azure VNet Components:
+------------------------
+1. Subnets: Segments within a VNet that allow you to organize and secure your resources.
+2. Network Security Groups (NSGs): Control inbound and outbound traffic to network interfaces and subnets.
+3. Virtual Network Gateways: Enable communication between Azure VNets and on-premises networks.
+4. Azure DNS: Provides name resolution for resources within the VNet.
+5. Peering: Connects VNets in the same or different regions to allow communication between them.
+6. Service Endpoints: Extend Azure services to your VNet, allowing secure access to Azure services.
+7. Private Link: Provides private connectivity to Azure services over a private endpoint in your VNet.
+8. Route Tables: Define how traffic is routed within the VNet.  
+9. Network Watcher: Monitors and diagnoses network issues in your VNet.
+10. Virtual Network Service Tags: Simplify security rules by using predefined tags for Azure services.  
+11. Azure Bastion: Provides secure and seamless RDP/SSH connectivity to VMs in the VNet without exposing them to the public internet.   
+12. Network Virtual Appliances (NVAs): Third-party appliances that can be deployed in the VNet for advanced networking scenarios.   
+13. Azure Firewall: A managed, cloud-based network security service that protects resources in the VNet.    
+14. DDoS Protection: Protects your VNet from Distributed Denial of Service (DDoS) attacks.  
+15. Virtual Network TAP: Allows you to capture and inspect traffic in your VNet for monitoring and troubleshooting. 
+16. Azure Load Balancer: Distributes incoming traffic across multiple VMs or services in the VNet for high availability and reliability.    
+17. Application Gateway: A web traffic load balancer that enables you to manage traffic to your web applications.   
+18. ExpressRoute: Establishes a private connection between your on-premises network and Azure, bypassing the public internet.
+19. Azure VPN Gateway: Provides secure site-to-site or point-to-site connectivity to your VNet over the public internet.
+20. Azure Bastion Host: A fully managed service that provides secure and seamless RDP/SSH connectivity to VMs in the VNet without exposing them to the public internet.     
+21. Azure Network Security Perimeter: A security boundary that isolates your VNet from other Azure resources and the public internet.   
+22. Azure Network Security Groups (NSGs): Control inbound and outbound traffic to network interfaces and subnets within the VNet.
+23. Azure Application Security Groups (ASGs): Allow you to group VMs and apply security rules based on application workloads rather than IP addresses.
+24. Azure Network Security Policies: Define security rules and policies for your VNet to enforce compliance and security standards.
+25. Azure Network Security Monitoring: Provides real-time monitoring and alerts for network security events in your VNet.
+26. Azure Network Security Auditing: Monitors and logs network security events for compliance and security standards.
+27. Azure Network Security Threat Detection: Detects and alerts on potential security threats in your VNet.
+28. Azure Network Security Incident Response: Provides tools and processes for responding to network security incidents in your VNet.
+29. Azure Network Security Compliance: Ensures that your VNet meets compliance requirements for security and privacy.
+30. Azure Network Security Best Practices: Provides guidelines and recommendations for securing your VNet and its resources.
+31. Azure Network Security Training: Provides training and resources for network security professionals to enhance their skills and knowledge.
+32. Azure Network Security Documentation: Provides detailed documentation and resources for understanding and implementing network security in Azure.
+33. Azure Network Security Community: A community of network security professionals and experts who share knowledge and best practices for securing Azure VNets.
+34. Azure Network Security Support: Provides support and assistance for network security issues and questions in Azure.
+35. Azure Network Security Tools: A set of tools and utilities for managing and securing your VNet, including network security scanners, vulnerability assessment tools, and more.
+36. Azure Network Security Services: A range of managed services that provide additional security features and capabilities for your VNet, such as threat intelligence, intrusion detection, and more.
+37. Azure Network Security Solutions: A collection of pre-built solutions and templates for securing your VNet, including security baselines, compliance frameworks, and more.
+38. Azure Network Security Partners: A network of partners and vendors that provide additional security solutions and services for your VNet, including third-party firewalls, intrusion detection systems, and more.
